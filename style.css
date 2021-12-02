@@ -1,0 +1,49 @@
+.top 
+{
+    background-color: darkslategrey;
+}
+
+.body
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+h2 
+{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.5mm;
+}
+
+h3 
+{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.5mm;
+}
+
+h4 
+{
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.5mm;
+}
+
+b 
+{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.5mm;
+}
+
+p,p1,pre
+{
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.5mm;
+}
