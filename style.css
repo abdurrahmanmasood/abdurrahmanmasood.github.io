@@ -11,6 +11,13 @@
     margin-left: 80px;
 }
 
+#Bio
+{
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
 h2 
 {
     text-align: center;
