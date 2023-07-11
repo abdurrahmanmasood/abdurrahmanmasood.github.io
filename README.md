@@ -1,3 +1,3 @@
 # Resume
 
-<https://abdurrahmanmasood.github.io/resume/>
+<https://abdurrahmanmasood.github.io/>
