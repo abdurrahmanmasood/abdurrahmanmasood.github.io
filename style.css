@@ -1,11 +1,14 @@
 body
 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 35px;
-    margin-left: 35px;
-    font-family: sans-serif;
-    font-size: smaller;
+    width: 8.27in; 
+    height: 11.69in;
+    margin: 0 auto; 
+    border: 1px solid black; 
+    box-sizing: border-box;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5% ;
 }
 
 #bio
@@ -15,30 +18,54 @@ body
     font-size: small;
 }
 
+.bio-container {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-div {
+  flex: 0.25;
+  padding: 0px;
+  font-size: small;
+  text-align: center;
+  line-height: 5mm;
+}
+
+.bottom-div {
+  flex: 1;
+  margin-top: 7px;
+  font-size: small;
+  text-align: center;
+
+}
+
+.bottom-div img {
+  width: 40px; 
+  height: auto; 
+} 
+
+.right-section {
+  align-items: center;   
+  flex: 1;
+  width: 600px;
+  height: auto;
+}
+
+.right-section img {
+  width: 50px; 
+  height: auto; 
+} */
+
+.right-section span {
+  text-align: center;
+  width: 600px;
+}
+
 .container {
   display: flex;
-  align-items: center;
-}
-
-.container img {
-  margin-right: 10px; /* Optional: Adds some spacing between the image and text */
-  width: 100px; /* Adjust the width to your desired size */
-  height: auto; /* Keeps the aspect ratio of the image */
-}
-
-.container span {
-  text-align: center;
-  width: 100%;
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container img {
-  width: 8%; /* Adjust the width as needed */
+  align-items:center;
 }
 
 img {
@@ -56,6 +83,7 @@ img {
 {
   font-size: x-small;
 }
+
 #workexperience
 {
   color: gray;
