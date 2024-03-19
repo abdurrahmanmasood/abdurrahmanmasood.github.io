@@ -6,15 +6,15 @@ body
   box-sizing: border-box;
   padding-top: 3%;
   padding-bottom: 3%;
-  padding-left: 8%;
-  padding-right: 8% ;
+  padding-left: 5%;
+  padding-right: 5% ;
 }
 
 #bio
 {
     line-height: 5mm;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .bio-container {
@@ -27,7 +27,7 @@ body
 .top-div {
   flex: 0.25;
   padding: 0px;
-  font-size: small;
+  font-size: medium;
   text-align: center;
   line-height: 5mm;
 }
@@ -99,19 +99,19 @@ h4
 {
   margin-top: 4px;
   margin-bottom: 4px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 b
 {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 p
 {
   margin-top: 1px;
   margin-bottom: 1px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 ul
@@ -121,6 +121,6 @@ ul
 
 li
 {
-  font-size: 12px;
+  font-size: 15px;
   margin-top: 3px;
 }
