@@ -1,21 +1,20 @@
 body
 {
-    width: 8.27in; 
-    height: 11.69in;
-    margin: 0 auto; 
-    border: 1px solid black; 
-    box-sizing: border-box;
-    padding-top: 3%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5% ;
+  width: 9in;
+  height: 11in;
+  margin: 0 auto; 
+  box-sizing: border-box;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #bio
 {
     line-height: 5mm;
     text-align: center;
-    font-size: small;
+    font-size: 15px;
 }
 
 .bio-container {
@@ -28,47 +27,53 @@ body
 .top-div {
   flex: 0.25;
   padding: 0px;
-  font-size: small;
+  font-size: medium;
   text-align: center;
   line-height: 5mm;
 }
 
-.bottom-div {
+.bottom-div 
+{
   flex: 1;
   margin-top: 7px;
   font-size: small;
   text-align: center;
-
 }
 
-.bottom-div img {
+.bottom-div img 
+{
   width: 40px; 
   height: auto; 
 } 
 
-.right-section {
+.right-section 
+{
   align-items: center;   
   flex: 1;
   width: 600px;
   height: auto;
 }
 
-.right-section img {
+.right-section img 
+{
   width: 50px; 
   height: auto; 
 } */
 
-.right-section span {
+.right-section span 
+{
   text-align: center;
   width: 600px;
 }
 
-.container {
+.container 
+{
   display: flex;
   align-items:center;
 }
 
-img {
+img 
+{
   max-width: 35%;
   max-height: 35%;
 }
@@ -92,21 +97,30 @@ img {
 
 h4
 {
+  color: darkblue;
   margin-top: 4px;
   margin-bottom: 4px;
-  font-size: smaller;
+  font-size: 18px;
+}
+
+h2
+{
+  color: darkblue;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 26px;
 }
 
 b
 {
-  font-size: smaller;
+  font-size: 18px;
 }
 
 p
 {
   margin-top: 1px;
   margin-bottom: 1px;
-  font-size: x-small;
+  font-size: 18px;
 }
 
 ul
@@ -116,6 +130,6 @@ ul
 
 li
 {
-  font-size: x-small;
+  font-size: 18px;
   margin-top: 3px;
 }
